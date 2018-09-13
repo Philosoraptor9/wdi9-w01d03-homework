@@ -12,15 +12,31 @@
 
 // EXCITED KITTEN
 
-const randomCat = ["...human...why you taking pictures of me?...", "...the catnip made me do it...",  "...why does the red dot always get away..."]
-let randomPhrase = Math.floor(Math.random() * randomCat.length);
+// const randomCat = ["...human...why you taking pictures of me?...", "...the catnip made me do it...",  "...why does the red dot always get away..."]
+// let randomPhrase = Math.floor(Math.random() * randomCat.length);
 
-for(let i = 1; i <= 20; i++){
-    if (i % 2 === 0){ 
-    console.log(randomCat[randomPhrase]);
+// for(let i = 1; i <= 20; i++){
+//     if (i % 2 === 0){ 
+//     console.log(randomCat[randomPhrase]);
+//     } else {
+//     console.log("Love me, pet me! HSSSSSS!"); 
+// }
+// }
+
+// FIZZBUZZ
+
+for (let i = 1; i <= 100; i++){
+    if(i % 3 === 0 && i % 5 !== 0){
+    console.log('Fizz');
+    } else if 
+    (i % 5 === 0 && i % 3 !== 0){
+    console.log('Buzz');    
+    } else if
+    (i % 3 === 0 && i % 5 === 0){
+    console.log('FizzBuzz');
     } else {
-    console.log("Love me, pet me! HSSSSSS!"); 
-}
+    console.log(i);
+    }
 }
 
 
