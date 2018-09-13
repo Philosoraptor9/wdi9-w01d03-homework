@@ -10,18 +10,18 @@
 // }
 
 
-// EXCITED KITTEN
+EXCITED KITTEN
 
-// const randomCat = ["...human...why you taking pictures of me?...", "...the catnip made me do it...",  "...why does the red dot always get away..."]
-// let randomPhrase = Math.floor(Math.random() * randomCat.length);
+const randomCat = ["...human...why you taking pictures of me?...", "...the catnip made me do it...",  "...why does the red dot always get away..."]
 
-// for(let i = 1; i <= 20; i++){
-//     if (i % 2 === 0){ 
-//     console.log(randomCat[randomPhrase]);
-//     } else {
-//     console.log("Love me, pet me! HSSSSSS!"); 
-// }
-// }
+for(let i = 1; i <= 20; i++){
+    if (i % 2 === 0){ 
+    let randomPhrase = Math.floor(Math.random() * randomCat.length);
+    console.log(randomCat[randomPhrase]);
+    } else {
+    console.log("Love me, pet me! HSSSSSS!"); 
+}
+}
 
 // FIZZBUZZ
 
@@ -77,80 +77,77 @@
 
 // YELL AT NINJA TURTLES
 
-// let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
-// let TMNT = [];
-//     for (i = 0; i <= ninjaTurtles.length; i++){
-//         ninjaTurtles[0] = ninjaTurtles[0].toUpperCase();
-//         ninjaTurtles[1] = ninjaTurtles[1].toUpperCase();
-//         ninjaTurtles[2] = ninjaTurtles[2].toUpperCase();
-//         ninjaTurtles[3] = ninjaTurtles[3].toUpperCase();
-//         console.log(ninjaTurtles);
-// }
+let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+let TMNT = [];
+    for (i = 0; i < ninjaTurtles.length; i++){
+        ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+        console.log(ninjaTurtles[i]);
+}
 
 // RETURN OF THE CLOSETS
 
-const kristynsCloset = [
-    "left shoe",
-    "cowboy boots",
-    "right sock",
-    "GA hoodie",
-    "green pants",
-    "yellow knit hat",
-    "marshmallow peeps"
-  ];
+// const kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     "right sock",
+//     "GA hoodie",
+//     "green pants",
+//     "yellow knit hat",
+//     "marshmallow peeps"
+//   ];
 
-  const thomsCloset = [
-    [
-      // These are Thom's shirts
-      "grey button-up",
-      "dark grey button-up",
-      "light blue button-up",
-      "blue button-up",
-    ],[
-      // These are Thom's pants
-      "grey jeans",
-      "jeans",
-      "PJs"
-    ],[
-      // Thom's accessories
-      "wool mittens",
-      "wool scarf",
-      "raybans"
-    ]
-  ];
+//   const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//       "grey button-up",
+//       "dark grey button-up",
+//       "light blue button-up",
+//       "blue button-up",
+//     ],[
+//       // These are Thom's pants
+//       "grey jeans",
+//       "jeans",
+//       "PJs"
+//     ],[
+//       // Thom's accessories
+//       "wool mittens",
+//       "wool scarf",
+//       "raybans"
+//     ]
+//   ];
 
- // Alien attire
-  let kristynsShoe = kristynsCloset[0];
-  kristynsCloset.splice(0, 1)
-  console.log(kristynsShoe);
-  thomsCloset.push(kristynsShoe);
-  console.log(thomsCloset);
+//  // Alien attire
+//   let kristynsShoe = kristynsCloset[0];
+//   kristynsCloset.splice(0, 1)
+//   console.log(kristynsShoe);
+//   thomsCloset.push(kristynsShoe);
+//   console.log(thomsCloset);
 
-// Dress 'em up
-let kristynsOutfit = Math.floor(Math.random() * kristynsCloset.length); 
-let random = kristynsOutfit[kristynsCloset];
+// // Dress 'em up
+// let kristynsOutfit = Math.floor(Math.random() * kristynsCloset.length); 
+// let random = kristynsOutfit[kristynsCloset];
 
-console.log(random);
-console.log(kristynsOutfit);
+// console.log(random);
+// console.log(kristynsOutfit);
 
-// Dirty laundry
-for (i = 0; i <= kristynsCloset.length; i++){
-    console.log("WHIRR: Now washing " + kristynsCloset[i]);
-}
+// // Dirty laundry
+// for (i = 0; i <= kristynsCloset.length; i++){
+//     console.log("WHIRR: Now washing " + kristynsCloset[i]);
+// }
 
-// Inventory
-for (i = 0; i <= thomsCloset.length; i++){
-    console.log(thomsCloset[i]);
-}
+// // Inventory
+// for (i = 0; i <= thomsCloset.length; i++){
+//     console.log(thomsCloset[i]);
+// }
 
 
-// MULTIPLES OF 3 AND 5
+// // MULTIPLES OF 3 AND 5
 
-let total = 0;
+// let total = 0;
 
-for(i = 0; i < 1000; i++) {
-  if(i % 3 == 0 || i % 5 == 0) {
-    total += i;
-  }
-}
-console.log(total);
+// for(i = 0; i < 1000; i++) {
+//   if(i % 3 == 0 || i % 5 == 0) {
+//     total += i;
+//   }
+// }
+// console.log(total);
