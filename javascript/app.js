@@ -119,15 +119,26 @@ const kristynsCloset = [
     ]
   ];
 
+ // Alien attire
   let kristynsShoe = kristynsCloset[0];
   kristynsCloset.splice(0, 1)
   console.log(kristynsShoe);
   thomsCloset.push(kristynsShoe);
   console.log(thomsCloset);
 
-
+// Dress 'em up
 let kristynsOutfit = Math.floor(Math.random() * kristynsCloset.length); 
 let random = kristynsOutfit[kristynsCloset];
 
 console.log(random);
 console.log(kristynsOutfit);
+
+// Dirty laundry
+for (i = 0; i <= kristynsCloset.length; i++){
+    console.log("WHIRR: Now washing " + kristynsCloset[i]);
+}
+
+// Inventory
+for (i = 0; i <= thomsCloset.length; i++){
+    console.log(thomsCloset[i]);
+}
