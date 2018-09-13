@@ -77,12 +77,57 @@
 
 // YELL AT NINJA TURTLES
 
-let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
-let TMNT = [];
-    for (i = 0; i <= ninjaTurtles.length; i++){
-        ninjaTurtles[0] = ninjaTurtles[0].toUpperCase();
-        ninjaTurtles[1] = ninjaTurtles[1].toUpperCase();
-        ninjaTurtles[2] = ninjaTurtles[2].toUpperCase();
-        ninjaTurtles[3] = ninjaTurtles[3].toUpperCase();
-        console.log(ninjaTurtles);
-}
+// let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+// let TMNT = [];
+//     for (i = 0; i <= ninjaTurtles.length; i++){
+//         ninjaTurtles[0] = ninjaTurtles[0].toUpperCase();
+//         ninjaTurtles[1] = ninjaTurtles[1].toUpperCase();
+//         ninjaTurtles[2] = ninjaTurtles[2].toUpperCase();
+//         ninjaTurtles[3] = ninjaTurtles[3].toUpperCase();
+//         console.log(ninjaTurtles);
+// }
+
+// RETURN OF THE CLOSETS
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  let kristynsShoe = kristynsCloset[0];
+  kristynsCloset.splice(0, 1)
+  console.log(kristynsShoe);
+  thomsCloset.push(kristynsShoe);
+  console.log(thomsCloset);
+
+
+let kristynsOutfit = Math.floor(Math.random() * kristynsCloset.length); 
+let random = kristynsOutfit[kristynsCloset];
+
+console.log(random);
+console.log(kristynsOutfit);
